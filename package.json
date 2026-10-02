@@ -1,0 +1,30 @@
+{
+  "name": "ao-network-staff-bot",
+  "version": "1.0.0",
+  "description": "AO Network Staff Management System - Role-based Discord bot with quotas, partnerships, disciplinary system, LOA & full transparency",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "staff-management",
+    "ao-network",
+    "quotas",
+    "partnerships"
+  ],
+  "author": "AO Network",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "better-sqlite3": "^11.5.0",
+    "ms": "^2.1.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
